@@ -1,10 +1,16 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.copix.rrradio",
-    "sha256_cert_fingerprints": [
-      "0B:1C:5C:68:03:6C:F1:FE:AC:D5:2B:34:04:24:B0:07:B5:CB:F7:CF:2B:DA:9E:36:06:BE:BF:7F:CF:89:B4:BF"
-    ]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.copix.rrradio",
+      "sha256_cert_fingerprints": [
+        "0B:1C:5C:68:03:6C:F1:FE:AC:D5:2B:34:04:24:B0:07:B5:CB:F7:CF:2B:DA:9E:36:06:BE:BF:7F:CF:89:B4:BF",
+        "A0:0B:D3:47:70:78:B5:E7:DD:91:CC:33:54:F2:8A:2E:14:5C:A3:9C:A2:DA:B5:3A:2A:50:98:17:4E:8F:69:93"
+      ]
+    }
   }
-}]
+]
